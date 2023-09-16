@@ -155,6 +155,8 @@ class OverkizCommandParam(StrEnum):
     AUTO = "auto"
     AUTOCOOLING = "autocooling"
     AUTOHEATING = "autoheating"
+    AUTO_COOLING = "auto cooling" # the OVP protocol has spaces in these values
+    AUTO_HEATING = "auto heating" 
     AUTO_MODE = "autoMode"
     AVAILABLE = "available"
     AWAY = "away"
